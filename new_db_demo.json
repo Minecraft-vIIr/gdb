@@ -1,0 +1,10 @@
+{
+    "config": {
+        "keys": {
+            "key1": "<default value>",
+            "key2": "<default value>"
+        },
+        "id_counter": 1
+    },
+    "data": {}
+}
