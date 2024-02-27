@@ -3,9 +3,9 @@ import base64
 import json
 
 class gdb:
-    def __init__(self, dbpath, token, auth):
+    def __init__(self, dbpath, token):
         self.dbpath = dbpath
-        self.auth = (auth, token)
+        self.auth = ("gdb/1.1", token)
         self.content_dict, self.sha = self._get_content()
 
     def _get_content(self):
